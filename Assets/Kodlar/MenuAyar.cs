@@ -31,5 +31,13 @@ public class MenuAyar : MonoBehaviour {
     {
         Application.LoadLevel("9x9");
     }
+    public void Cik()
+    {
+        Application.Quit();
+    }
+    public void AnaMenu()
+    {
+        Application.LoadLevel("AnaMenu");
+    }
 
 }
